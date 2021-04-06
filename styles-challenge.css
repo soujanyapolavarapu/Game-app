@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    /* for page remove margin  */
+    padding: 0px;
+    /* for page remove padding */
+    box-sizing: border-box;
+    /* creat a border box */
+    -webkit-box-sizing: border-box;
+  }
+  img {
+    height: auto;
+  }
+  body {
+    background-image: url(https://i.ibb.co/hC5KMFH/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    color: #185e57;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    color: #28334aff;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .enter {
+    padding-top: 30px;
+  }
+  h2 {
+    color: #85040a;
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin: 30px;
+  }
+  .winner-img {
+    margin: 20px;
+  }
+  button {
+    border: none;
+    background-color: #2c3e50;
+    box-shadow: 0px 5px 0px 0px #1c2833;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #fef5e7;
+  }
+  .buttons,
+  .restart_button {
+    text-align: center;
+    padding: 50px 0px;
+  }
+  button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+  #start-a:hover,
+  #start-b:hover,
+  #restartButton:hover {
+    background-color: #d1e6e6;
+    color: #1c2833;
+    transition-duration: 0.8s;
+  }
+  .typers {
+    display: flex;
+    justify-content: center;
+  }
+  .typer1,
+  .typer2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 9px;
+    border-top: 2px solid black;
+  }
+  .typer1 {
+    border-right: 2px solid black;
+  }
+  
+  #typer_a,
+  #typer_b {
+    border: 1px solid #1c2833;
+    border-color: #1c2833;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 5px 0px 0px #1c2833;
+    background-color: #d1e6e6;
+    color: black;
+    font-size: 15px;
+    margin: 15px;
+    padding: 15px 10px;
+  }
+  @media only screen and (max-width: 992px) {
+    .typers {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 75%;
+    }
+    .typer1,
+    .typer2 {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black;
+      margin: 20px;
+      padding: 20px;
+    }
+  }
